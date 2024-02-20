@@ -1,0 +1,475 @@
+.Popupequipo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 972px;
+  min-height: 750px;
+  padding-top: 11%;
+  background-color: #09080F;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 2px solid #AF7DEF;
+  z-index: 1000; /* Valor de z-index menor para Popupequipo */
+  overflow-y: auto;
+}
+
+.Popupequipo .close-btn{
+  width: 5%;
+  margin-top: 70px;
+}
+
+.Divequipo{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.PopupJugadores {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  padding: 20px;
+  background-color: #09080F;
+  border: 2px solid #14A2F2;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow-y: auto;
+  z-index: 2000; /* Valor de z-index mayor para PopupJugadores */  
+}
+
+.filtros .close-btn{
+  width: 5%;
+  margin-top: 65px;
+}
+
+
+.Popupequipo h2,
+.PopupJugadores h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.Popupequipo ul,
+.PopupJugadores ul {
+  color: #14A2F2;
+  list-style: none;
+  padding: 0;
+}
+
+.Popupequipo ul li,
+.PopupJugadores ul li {
+  cursor: pointer;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.Popupequipo ul li.selected,
+.PopupJugadores ul li.selected {
+  background-color: #09080F;
+  color: #fff;
+}
+
+
+.Popupequipo div,
+.PopupJugadores div {
+  margin-top: 20px;
+}
+
+.Popupequipo input,
+.Popupequipo button,
+.PopupJugadores input,
+.PopupJugadores button {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  border: 1px solid #AF7DEF;
+  border-radius: 13px;
+}
+
+.Popupequipo input::placeholder,
+.Popupequipo button::placeholder,
+.PopupJugadores input::placeholder,
+.PopupJugadores button::placeholder{
+  color: #fff;
+}
+
+
+
+
+.PopupJugadores select{
+  border: 1px solid #AF7DEF;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.PopupJugadores option{
+  background: #09080F;
+  font-size: 20px;
+
+}
+
+.Popupequipo button,
+.PopupJugadores button {
+  width: 15%;
+  background-color: #14A2F2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2%;
+}
+
+
+.Popupequipo ul,
+.Popupequipo div,
+.PopupJugadores ul,
+.PopupJugadores div {
+  max-height: 70%; /* Máxima altura del contenido interno en porcentaje */
+  overflow-y: auto; /* Añadido para permitir desplazamiento si el contenido es largo */
+}
+
+.Popupequipo ul li,
+.Popupequipo div li,
+.PopupJugadores ul li,
+.PopupJugadores div li {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.Popupequipo h3{
+  margin-top: -16%;
+  padding-bottom: 15%;
+}
+
+.Popupequipo img{
+  margin-top: -30%;
+}
+
+.Popupequipo h4{
+  margin-top: -14%;
+  padding-bottom: 8%;
+}
+
+
+.Popupequipo .Divequipo input {
+  /* Estilos comunes para todos los inputs */
+  
+  margin-bottom: 10px;
+  /* Otros estilos según sea necesario */
+}
+.Popupequipo .Divequipo .input-1 {
+  background-color: #ffeeaa;
+}
+
+.Divequipo .input-1{
+  display: none;
+}
+.Divequipo .input-2{
+  display: none;
+}
+.Divequipo .input-3{
+  display: none;
+}
+.Divequipo .input-4{
+  display: none;
+}
+.Divequipo .input-5{
+  display: none;
+}
+.Divequipo .input-6{
+  display: none;
+}
+.Divequipo .input-7{
+  display: none;
+}
+.Divequipo .input-8{
+  display: none;
+}
+.Divequipo .input-9{
+  display: none;
+}
+.Divequipo .input-10{
+  display: none;
+}
+.Divequipo .input-11{
+  display: none;
+}
+.Divequipo .input-12{
+  display: none;
+}
+.Divequipo .input-13{
+  display: none;
+}
+.Divequipo .input-14{
+  display: none;
+}
+.Divequipo .input-15{
+  display: none;
+}
+
+.Divequipo-item-1 {
+  position: absolute;
+  top: 365px;
+  left: 89px;
+  /* Otros estilos según sea necesario */
+}
+
+.Divequipo-item-2 {
+  position: absolute;
+  top: 325px;
+  left: 200px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-3 {
+  position: absolute;
+  top: 405px;
+  left: 175px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-4 {
+  position: absolute;
+  top: 295px;
+  left: 300px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-5 {
+  position: absolute;
+  top: 460px;
+  left: 285px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-6 {
+  position: absolute;
+  top: 295px;
+  left: 430px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-7 {
+  position: absolute;
+  top: 460px;
+  left: 430px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-8 {
+  position: absolute;
+  top: 375px;
+  left: 520px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-9 {
+  position: absolute;
+  top: 290px;
+  left: 670px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-10 {
+  position: absolute;
+  top: 360px;
+  left: 750px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-11 {
+  position: absolute;
+  top: 460px;
+  left: 720px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-12 {
+  position: absolute;
+  top: 140px;
+  left: 290px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-13 {
+  position: absolute;
+  top: 140px;
+  left: 400px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-14 {
+  position: absolute;
+  top: 140px;
+  left: 510px;
+  /* Otros estilos según sea necesario */
+}
+.Divequipo-item-15 {
+  position: absolute;
+  top: 140px;
+  left: 620px;
+  /* Otros estilos según sea necesario */
+}
+
+.Formacionesbtn{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.Formacionesbtn button {
+  width: 20%;
+  padding: 0%;
+  background: none;
+  margin-top: -3px;
+  font-size: 23px;
+}
+
+.Formacionesbtn button:hover {
+  background: none;
+}
+
+.FormacionesPopup button:focus{
+  color: #AF7DEF;
+}
+
+.FormacionesPopup{
+  border: 1px solid #14A2F2;
+  border-radius: 30px;
+  margin-bottom: 1%;
+  
+}
+
+.FormacionesPopup h5{
+  margin-top: 1%;
+}
+
+
+.Divequipo .PlayerInfo{
+  display: flex;
+width: 64px;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+
+  .Popupequipo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 468px;
+    min-height: 650px;
+    padding-top: 11%;
+    background-color: #09080F;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 2px solid #AF7DEF;
+    z-index: 1000; /* Valor de z-index menor para Popupequipo */
+    overflow-x: scroll;
+  }
+  
+  .Divequipo{
+    width: 990px;
+    background-size: cover;
+    height: 40vh;
+  }
+
+  .Popupequipo h3{
+    width: 100%;
+    margin: auto;
+    margin-left: 58%;
+    margin-top: -5%;
+  }
+
+  .Popupequipo img{  
+    width: 100%;
+    margin: auto;
+    margin-left: 58%;
+    margin-top: -10%;
+    padding-bottom: 30%;
+  }
+
+  .Popupequipo h4{
+    width: 100%;
+    margin-left: 58%;
+    margin-top: -25%;
+    padding-bottom: 20%;
+
+  }
+
+  .FormacionesPopup{
+    width: 130%;
+    border: 1px solid #14A2F2;
+    border-radius: 30px;
+    margin-bottom: 1%;
+    margin-left: 43%;
+  }
+
+
+.Formacionesbtn{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+
+  .Formacionesbt button {
+    width: 20%;
+    padding: 0%;
+    background: none;
+    margin-top: -3px;
+    font-size: 23px;
+    }
+
+    .Popupequipo .close-btn{
+      width: 10%;
+      margin-right: -115%;
+    }
+    
+    .PopupJugadores{
+      width: 150%;
+      margin-left: 57%;
+    }
+
+    .filtros .close-btn{
+      width: 6%;
+      margin-right: 0%;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

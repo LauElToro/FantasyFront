@@ -1,0 +1,56 @@
+.carrusel-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    cursor: grab;
+  }
+  
+  .carrusel {
+    display: flex;
+    transition: transform 0.5s ease;
+    cursor: grab;
+  }
+  
+  .carrusel-inner {
+    display: flex; /* Añadido para contener el carrusel-item */
+  }
+  
+  .carrusel-item {
+    min-width: calc(100% / 3);
+    box-sizing: border-box;
+  }
+  
+  .CarruselImgs {
+    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+    height: auto; /* Ajusta la altura de la imagen de forma proporcional al ancho */
+    margin-bottom: -15%;
+    margin-top: 15%;
+  }
+  
+  .carrusel-container:active,
+  .carrusel:active {
+    cursor: grabbing;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
+
+@media (max-width: 768px) {
+    .carrusel {
+      touch-action: pan-y; /* Permite el desplazamiento táctil vertical en dispositivos móviles */
+    }
+  
+    .carrusel-container {
+      cursor: grab;
+    }
+  
+    .carrusel-container:active,
+    .carrusel:active {
+      cursor: grabbing;
+    }
+  }
+  
+
+  

@@ -1,0 +1,78 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/**
+ * Main content containers
+ * 1. Make the container full-width with a maximum width
+ * 2. Center it in the viewport
+ * 3. Leave some space on the edges, especially valuable on small screens
+ */
+.container {
+  max-width: $max-container;
+  margin: 0 auto;
+  padding-inline: 20px;
+  width: 100%;
+}
+
+.hide-text {
+  overflow: hidden;
+  overflow-x: auto;
+  padding: 0;
+  /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+ul {
+  li {
+    list-style: none;
+    @extend %ml-0;
+  }
+}
+
+
+//====================================
+// Gradient BG utilities
+//====================================
+
+
+.gradient-bg-yellow {
+  background-image:  rgb(172,121,226) 0%, rgb(36,26,123) 50% ,rgb(18,15,94) 100%;
+
+}
+
+.gradient-bg-pink {
+  background-image: rgb(129,79,194) 0%, rgb(89, 51, 243)50%, rgb(82,42,133)100%;
+}
+
+.gradient-bg-blue {
+  background-image: rgb(202,096,79) 0%, rgb(212, 93, 14)50%, rgb(255,035,001)100%;
+}
+
+
+.gradient-bg-orange {
+  background-image: rgb(172,121,226) 0%, rgb(100,98,190) 50%, rgb(33,210,254) 100%
+}
+

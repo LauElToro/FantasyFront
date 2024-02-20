@@ -1,0 +1,253 @@
+.main {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.sports {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: #040221;
+    border-radius: 10px;
+    width: 85%;
+    padding: 5px;
+    box-shadow: 0px 3px 16px #14A2F2, inset 0px 3px 6px #59318C;
+    margin: auto;
+    position: relative;
+    height: 60vh;
+}
+
+
+
+.sportsh3 {
+    width: 40%;
+    padding: 6% 6% 3% 6%;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-right: auto;
+}
+
+.sports2h3 {
+    font-size: 37px;
+    padding-left: 6%;
+    color: #14A2F2;
+    margin-left: 3%;
+}
+
+
+.btn-p {
+    height: 55px;
+    background-color: #59318C;
+    padding: 19px 20px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #59318C;
+    border-radius: 20px;
+    box-shadow: 0px 5px 4px 0px #000000;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 2%;
+    margin-left: 15%;
+
+}
+
+.btn-p:hover {
+    background-color: transparent;
+}
+
+
+.GroupImg {
+    width: 45%;
+    position: absolute;
+    right: 0; 
+    bottom: 0; 
+    margin-right: 12%;
+}
+
+
+.columnas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.iconos {
+    width: 15%;
+}
+
+.h1Bene {
+    text-decoration: none;
+    padding: 3%;
+    font-size: 4rem;
+}
+
+.fonincon {
+    width: 100%;
+    height: 100%;
+}
+
+.iconos-com {
+    margin-right: 2%;
+}
+
+.iconos-trofeo{
+    margin-right: 1%;
+}
+
+.destacados {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.columimg {
+    width: 70%;
+}
+
+.bigimg {
+    width: 58%;
+    height: 20%;
+}
+
+.sponsors {
+    background-color: #040221;
+    padding-bottom: 5%;
+    margin-top: -5%;
+    padding-top: 1%;
+}
+
+.segEvent-logo{
+    margin: 20px 0px 60px;
+}
+
+.segEvent {
+    margin-top: 20px;
+}
+
+.segEvent2 {
+    margin-top: 20;
+}
+
+.btnSinEve {
+    font-weight: 700;
+    background-color: transparent;
+    padding: 13px 30px;
+    color: #fff;
+    border: 1px solid #59318C;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 60%;
+}
+
+.Busqueda {
+    width: 80%;
+    margin-left: 25%;
+    margin-top: 0.4%;
+    background: #D9D9D9;
+    border: 3px solid #14A2F2;
+    border-radius: 50px;
+}
+
+.btnMasApuestas {
+    width: 30%;
+    height: 70px;
+    color: #fff;
+    border: 2px solid rgba(20, 162, 242, 1);
+    background-color: rgba(83, 35, 144, 1);
+    border-radius: 40px;
+}
+
+.divTerminados {
+    display: flex;
+    text-align: center;
+    justify-content: start;
+}
+
+.divTerminados2 {
+    display: flex;
+    text-align: center;
+    justify-content: start;
+}
+
+@media (max-width: 768px) {
+
+
+
+.sports{
+    margin-top: 85%;
+}
+
+.sportsh3{
+    width: 100%;
+    font-size: 20px;
+    margin-left: -0%;
+}
+
+.sports2h3{
+    width: 100%;
+}
+
+
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.fonincon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        
+
+}
+
+    
+
+.sportsh1 {
+    font-size: 290%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.sports {
+    position: relative;
+    width: 90%;
+    }
+
+.btn-p {
+    margin: 4%;
+    padding: 8px 5px;
+}
+
+.btn-sg {
+    padding: 8px 5px;
+}
+
+.GroupImg{
+    width: 70%;
+}
+
+
+
+    .sponsors {
+        display: none;
+    }
+
+    .btnSinEve {
+        display: block;
+        padding: 10% 45%;
+        margin-left: -10px;
+    }
+
+
+
+}

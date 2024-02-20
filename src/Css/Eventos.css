@@ -1,0 +1,315 @@
+.Fechas{
+    border: 2px solid rgba(129, 79, 193, 1);
+    width: 13%;
+    margin-left: 45%;
+    margin-bottom: 0.5%;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.d-flex{
+   width: 80%;
+   margin: auto;
+}
+
+.Top1Ban{
+   margin-top: 3%;
+   margin-bottom: 3%;
+   width: 90%;
+}
+
+.Eventos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(129, 79, 193, 1);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 25px;
+}
+.TeamEve{
+   width: 50%;
+   padding: 70px;
+   border: 3px solid rgba(7, 68, 102, 1);
+   background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 50%,
+        rgba(207, 190, 32, 1) 50%,
+        rgba(207, 190, 32, 1) 100%
+      );
+}
+
+.TeamRiv{
+    width: 62%;
+    padding: 70px;
+    border: 3px solid rgba(7, 68, 102, 1);
+    background: linear-gradient(
+         to right,
+         rgba(0, 0, 0, 1) 0%,
+         rgba(0, 0, 0, 1) 50%,
+         rgba(207, 32, 42, 1) 50%,
+         rgba(207, 32, 42, 1) 100%
+       );
+ }
+
+ .ApuestaTeam1{
+    font-weight: 700;
+    background-color: rgba(20, 162, 242, 1);
+    padding: 10px 33px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 20px 20px 20px 20px;
+margin-top: 1%;
+ }
+
+ .ApuestaTeam1:hover{
+    background-color: rgba(207, 190, 32, 1);
+ }
+
+ .ApuestaTeam2{
+    font-weight: 700;
+    background-color: rgba(20, 162, 242, 1);
+    padding: 10px 33px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 1%;
+ }
+
+ .ApuestaTeam2:hover{
+    background-color: rgba(207, 32, 42, 1) ;
+ }
+
+ .score{
+    border: 1px solid rgba(20, 162, 242, 1);
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(20, 162, 242, 1) ;
+    width: 40%;
+    margin-left: 30%;
+ }
+
+ .time{
+    border: 1px solid rgba(83, 35, 144, 1);
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(83, 35, 144, 1) ;
+    width: 100%;
+ }
+
+
+ .cardSlider{
+   width: 80%;
+   background-color: #040221;
+   margin-left: 5px;
+   border: 2px solid rgba(83, 35, 144, 1);
+   box-shadow: 0px 15px 25px #14A2F2;
+}
+
+.logocard{
+   background-color: #59318C;
+}
+.cardl{
+   width: 100%;
+   padding: 10px;
+   background-color:rgba(9, 8, 15, 1);
+}
+.imgCards{
+   width: 100%;
+   padding: 5px;
+}
+.logobuttom{
+   width: 50%;
+   height: 100%;
+   margin-right: 70%;
+}
+
+.listaC{
+text-align: left;
+}
+.itemcard{
+   padding: 10px;
+   color: #fff;
+}
+.btnEstadoCard{
+   width: 50%;
+   height: 45px;
+   color: #fff;
+   background-color:rgba(20, 162, 242, 1);
+   border-radius: 40px;
+   border-color: rgba(20, 162, 242, 1);
+}
+
+.btnCards{
+   width: 50%;
+   height: 45px;
+   color: #fff;
+   background-color:rgba(83, 35, 144, 1);
+   border-radius: 40px;
+   border-color: rgba(20, 162, 242, 1);
+}
+
+
+.CardNuevo{
+   position: relative;
+   background-color: #040221;
+   border: 2px solid rgba(83, 35, 144, 1);
+   box-shadow: 0px 15px 25px black;
+   display: flex;
+   flex-direction:row;
+   align-items:center;
+   justify-content: center;
+   width: 95%;
+   height: 100%;
+}
+
+ .cardSliderNuevo{
+   width: 70%;
+}
+
+.logocardNuevo{
+   background-color: #59318C;
+}
+.cardlNuevo{
+   width: 100%;
+   height: 35vh;
+   padding: 3px;
+   background-color:rgba(4, 2, 33, 1);
+}
+.imgCardsNuevo{
+   width: 80%;
+   padding: 5px;
+   border: #14A2F2 2px solid;
+}
+.logobuttomNuevo{
+   width: 50%;
+   height: 100%;
+   margin-right: 70%;
+}
+
+.listaCNuevo{
+text-align: left;
+margin-top: 7%;
+margin-bottom: -8%;
+font-size: 21px;
+}
+
+.USDTCARD{
+   width: 10%;
+}
+.USDTCARD2{
+   width: 50%;
+}
+.itemcardNuevo img{
+   width: 10%;
+}
+.itemcardNuevo{
+   padding: 1px;
+   color: #fff;
+}
+.btnEstadoCardNuevo{
+   width: 27%;
+   height: 45px;
+   color: #fff;
+   margin-top: 5%;
+   margin-left: 5%;
+   background-color:rgba(20, 162, 242, 1);
+   border-radius: 40px;
+   border-color: rgba(20, 162, 242, 1);
+   font-size: 15px;
+}
+
+.btnCardsNuevo{
+   width: 27%;
+   height: 45px;
+   color: #fff;
+   margin-left: 35%;
+   background-color:rgba(83, 35, 144, 1);
+   border-radius: 40px;
+   border-color: rgba(20, 162, 242, 1);
+   box-shadow: 0px 15px 25px black;
+}
+
+@media (max-width: 768px){
+   .CardNuevo{
+      position: relative;
+      background-color: #040221;
+      border: 2px solid rgba(83, 35, 144, 1);
+      box-shadow: 0px 15px 25px black;
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+   }
+   
+   .logocardNuevo{
+      background-color: #59318C;
+   }
+   .cardlNuevo{
+      width: 100%;
+      min-height: 50vh;
+      background-color:rgba(4, 2, 33, 1);
+   }
+   .imgCardsNuevo{
+      width: 100%;
+   }
+   .logobuttomNuevo{
+      width: 50%;
+      height: 100%;
+      margin-right: 70%;
+   }
+   
+   .USDTCARD{
+      width: 30%;
+   }
+   .itemcardNuevo{
+      font-size: 110%;
+   }
+   .btnEstadoCardNuevo{
+      width: 40%;
+      height: 35px;
+   }
+   
+   .btnCardsNuevo{
+      width: 40%;
+      height: 35px;
+      height: 40px;
+      color: #fff;
+      margin-left: 0%;
+   }
+   
+
+   .Fechas{
+      width: 40%;
+      margin-left: 30%;
+      margin-bottom: 1%;
+  }
+  
+  .Top1Ban{
+     width: 100%;
+  }
+  
+  .TeamEve{
+     width: 90%;
+     padding: 20px;
+        margin-top: 9%;
+        margin-bottom: 30%;
+  }
+  
+  .TeamRiv{
+      width: 100%;
+      padding: 5px;
+         margin-top: 10%;
+         margin-bottom: 30%;
+   }
+  
+   .USDTCARD2{
+      display: none;
+      }
+}

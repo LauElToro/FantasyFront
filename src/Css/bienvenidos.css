@@ -1,0 +1,197 @@
+.H1banner {
+    position: absolute;
+    left: 15%;
+    top: 8%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 73px;
+    line-height: 105px;
+}
+
+.Pbanner {
+    position: absolute;
+    left: 15%;
+    top: 17%;
+}
+
+.btnbanner {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-weight: 700;
+    background-color: rgba(46, 25, 72, 1);
+    padding: 15px 33px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+
+.divsSecBan{
+    margin-bottom: 5%;
+}
+
+.v1v1 {
+    font-size: 40px;
+    margin-right: 40%;
+}
+
+.divsban {
+    padding: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Clasteam {
+    position: absolute;
+    width: 16%;
+    bottom: 49%;
+    left: 42%;
+}
+
+.Clasteam2 {
+    position: absolute;
+    width: 16%;
+    bottom: 32.5%;
+    left:35%;
+    width: 10%;
+}
+
+.Clasteam3 {
+    position: absolute;
+    width: 16%;
+    bottom: 32.5%;
+    left: 82%;
+    width: 13.5%;
+}
+.DivImagenes{
+    display: flex;
+}
+
+.h5col {
+    color: #AF7DEF;
+}
+
+.divReco {
+    position: absolute;
+    bottom: 44%;
+    left: 39%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.divReco2 {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.divReco3 {
+    position: absolute;
+    bottom: 30%;
+    left: 65%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgRec {
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 8px;
+}
+
+.imgRec2 {
+    width: 100%;
+    margin-top: 1%;
+    padding: 8px;
+}
+
+@media  (max-width: 768px) {
+    .H1banner {
+        left: 4%;
+        top: 4%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 105px;
+    }
+    .Pbanner {
+        display: none;
+    }
+    .btnbanner {
+        top: 12%;
+        left: 28%;
+        font-weight: 700;
+        background-color: rgba(46, 25, 72, 1);
+        padding: 15px 33px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        border-radius: 20px 20px 20px 20px;
+        margin-right: 10px;
+    }
+    .v1v1 {
+        font-size: 20px;
+        margin-left: 22%;
+    }
+    .Perf{
+        width: 20%;
+        height: 20%;
+    }
+    .h5col {
+        font-size: 22px;
+    }
+    .Clasteam {
+        bottom: 58%;
+        left: 42%;
+    }
+    
+    .Clasteam2 {
+        width: 20%;
+        bottom: 48%;
+        left:65%;
+    }
+    
+    .Clasteam3 {
+        width: 30%;
+        bottom: 37.5%;
+        left:62%;
+    }
+    .divReco {
+        bottom: 61.5%;
+        left: 20%;
+    }
+    
+    .divReco2 {
+        bottom: 41%;
+        left: 20%;
+    }
+    
+    .divReco3 {
+        bottom: 52%;
+        left: 20%;
+    }
+    
+    .imgRec {
+        width: 100%;
+    }
+    
+    .imgRec2 {
+        width: 100%;
+    }
+    .DivNone{
+        display: none;
+    }
+    .DivImagenes{
+        display: block;
+    }
+}

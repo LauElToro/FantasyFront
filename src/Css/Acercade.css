@@ -1,0 +1,172 @@
+.six{
+    width: 100%;
+    height: 100%;
+  }
+  .mainMap {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.presentacion{ 
+    margin: 2rem auto;
+    text-align: center;
+    width: 40%;
+  }
+.soldier{ 
+    width: 35%;
+  }
+.h1-A{
+  font-size: 2.2em;
+  text-align: center;
+}
+.contenctVec{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.vec{
+  width: 10%;
+}
+.cruz{
+  width: 10%;
+  padding: 15px;
+}
+
+.h4-A{
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 96px;
+text-align: center;
+}
+.h4-B{
+  font-size: 2em;
+font-style: normal;
+font-weight: 500;
+text-align: left;
+}
+.SquadSIX{
+  color: rgba(175, 125, 239, 1);
+}
+
+.preguntasPrimera{
+    width: 90%;
+    margin: 4rem auto;
+    text-align: left;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .preguntas{
+    width: 90%;
+    margin: 4rem auto;
+    text-align: left;
+    margin-top: 1%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+  }
+.rectangulo{
+    width: 3%;
+    margin-right: 5px;
+    margin-left: 18px;
+}
+
+.fun{
+    margin-left: 4.5%;
+}
+
+.roadmap{
+  width: 80%;
+  height: 100%;
+  border: 1px solid rgba(20, 162, 242, 1);;
+  border-radius: 50px 50px 50px 50px;
+  background-color: rgba(18, 15, 94, 1);
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding: 4%;
+}
+
+.carga{
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  justify-content: center;
+}
+
+.sall p{
+display: inline-block;
+font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+    padding: 1%;
+width: 25%;
+}
+
+.s1{
+  border-radius: 20px 0 0 20px;
+  background-color: rgba(129, 79, 193, 1);
+}
+.s2{
+  background-color: rgba(62, 38, 92, 1);
+}
+.s3{
+  background-color: rgba(62, 38, 92, 1);
+}
+.s4{
+  border-radius: 0 20px 20px 0;
+  background-color: rgba(62, 38, 92, 1);
+}
+.fon{
+  width: 50%;
+  height: 50%;
+  padding: auto;
+  margin-left: 2%;
+}
+.fon2{
+  width: 50%;
+  height: 50%;
+  padding: auto;
+  margin-left: 2%;
+}
+.fon li{
+  padding: 6%;
+  margin-left: -15%;
+}
+.fon2 li{
+  padding: 6%;
+  margin-left: -15%;
+}
+.ul{ list-style: none;}
+
+@media (max-width: 768px){
+  .presentacion{
+    width: 100%;
+  }
+  .soldier{ 
+    display: none;
+  }
+  .h1-A{
+    font-size: 1.017em;
+    text-align: center;
+  }
+  .rectangulo{
+    width: 10%;
+  }
+  .AcercaDeLogo{
+    display: none;
+  }
+  .fon{
+    width: 100%;
+  }
+  .fon2{
+    display: none;
+  }
+}
