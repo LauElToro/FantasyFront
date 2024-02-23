@@ -1,0 +1,15 @@
+.gradient-bg-yellow {
+  background-image: rgb(172, 121, 226) 0%, rgb(36, 26, 123) 50%, rgb(18, 15, 94) 100%;
+}
+
+.gradient-bg-pink {
+  background-image: rgb(129, 79, 194) 0%, rgb(89, 51, 243) 50%, rgb(82, 42, 133) 100%;
+}
+
+.gradient-bg-blue {
+  background-image: rgb(202, 96, 79) 0%, rgb(212, 93, 14) 50%, rgb(255, 35, 1) 100%;
+}
+
+.gradient-bg-orange {
+  background-image: rgb(172, 121, 226) 0%, rgb(100, 98, 190) 50%, rgb(33, 210, 254) 100%;
+}/*# sourceMappingURL=utilities.css.map */

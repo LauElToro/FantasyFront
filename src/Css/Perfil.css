@@ -1,0 +1,139 @@
+.bgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    margin-left: 28%;
+    
+}
+
+.bg1{
+    margin-left: -20%;
+}
+
+.bg1h3{
+    font-size: 35px;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2px black;
+}
+
+.usern{
+    font-size: 35px;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2px black;
+    color: #14A2F2;
+}
+
+.bg2{
+    margin-right: 25%;
+}
+
+.bg2 button{
+    width: 140%;
+    font-size: 20px;
+    background-color: #532390;
+    color: #fff;
+    padding: 7%;
+    border: 3px solid #14A2F2;
+    border-radius: 25px;
+}
+
+.bgcontainer2{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1{
+    position: relative;
+    width: 70%;
+}
+
+.box1div img{
+    position: absolute;
+    width: 15%;
+    margin-top: 5%;
+}
+
+.box1div{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1divp{
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.box1divp p{
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 1px;
+}
+
+.phora{
+    font-weight: 600;
+    color: #AF7DEF;
+}
+
+.pnombre{
+    font-weight: 600;
+}
+
+.pdescripcion{
+    color: #AF7DEF;
+}
+
+
+.bgcontainer3{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7% 0% 0% 0%;
+
+}
+
+.Bigboxcontainer{
+    width: 65%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 20px;
+    border: #14A2F2 2px solid;
+    border-radius: 100px;
+    height: 70vh;
+}
+
+.Groupboxcont3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.bgcontainer4{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.container4h1{
+    padding-top: 2%;
+}
+
+.bgcontainer4{
+    padding-bottom: 11%;
+}
+
+.GradientViolt{
+    background: radial-gradient(#530388 0%, #000 100%, #ffffff 100%);
+}
+

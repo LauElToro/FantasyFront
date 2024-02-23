@@ -1,0 +1,43 @@
+.cardSlider{
+    width: 90%;
+    background-color: rgba(18, 15, 94, 1);
+    margin-left: 5px;
+}
+
+.logocard{
+    background-color: #59318C;
+}
+.cardl{
+    width: 100%;
+    padding: 10px;
+    background-color:rgba(18, 15, 94, 1);
+}
+
+.logobuttom{
+    width: 50%;
+    height: 100%;
+    margin-right: 70%;
+}
+
+.listaC{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.itemcard{
+    padding: 10px;
+    color: #fff;
+}
+
+.btnstorneo{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 33%;
+    top: 44%;
+    color: #fff;
+    background-color:rgba(20, 162, 242, 1);
+    border-radius: 40px 40px 40px 40px;
+    border-color: rgba(20, 162, 242, 1);
+}

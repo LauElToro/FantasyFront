@@ -1,0 +1,132 @@
+#btn-masFix{
+    display: none;
+}
+.containerFix{
+    position: absolute;
+    bottom: 31.5%;
+    right: 4.5%;
+}
+
+.pbtn{
+    margin-top: -9%;
+    margin-left: -45%;
+    color: #814FC1;
+}
+
+.pbtn2{
+    margin-top: -45%;
+    margin-left: -45%;
+    color: #814FC1;
+}
+.redesFix a, .btn-masFix label{
+    display:block;
+    text-decoration: none;
+    background: #040221;
+    color: #fff;
+    width: 250px;
+    height: 90px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.redesFix a{
+    border: 1px solid #814FC1;
+}
+.redesFix img{
+    width: 80%;
+}
+.labesl{
+    position: absolute;
+    bottom: -13%;
+    right: 3%;
+ }
+.btn-masFix label{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    margin-top: 15%;
+    border: 1px solid #814FC1;
+    border-radius: 30%;
+ }
+.redesFix a:hover{
+    background: #09080F;
+}
+.redesFix {
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-masFix:checked~ .redesFix  {
+    margin-bottom: 0px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.btn-masFix label{
+    cursor: pointer;
+    background: #040221;
+    font-size: 23px;
+}
+#btn-masFix:checked ~ .btn-masFix label{
+
+    font-size: 25px;
+}
+
+.btnshad{
+    font-weight: 700;
+    background-color: transparent;
+    padding: 13px 30px;
+    color: #fff;
+    border: 1px solid #59318C;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 20px 20px 20px 20px;  
+}
+
+.btnshad .COM{
+    width: 20%;
+    margin-left: 17%;
+}
+
+.divred{
+    display: block;
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    width: 250px;
+    height: 55px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: -25%;
+}
+
+
+.btnred{
+    width: 17%;
+    margin-left: 2%;
+    background-color: #59318C;
+    color: #fff;
+    border: 1px solid #59318C;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 20px 20px 20px 20px;  
+    
+}
+
+.btnred .segred{
+    width: 50%;
+}
+
+
+@media (max-width: 768px){
+    .containerFix{
+        position: absolute;
+        bottom: 23%;
+        right: 2%;
+    }
+    .labesl{
+        position: absolute;
+        bottom: -14%;
+        right: 3%;
+     }
+}
