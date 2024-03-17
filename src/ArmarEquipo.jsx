@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import "./Css/ArmarEquipo.css";
-import Cancha from "../public/Cancha.png";
 import Linea from "../public/Linea19.png"
-import EquipoCard from "./comps/EquipoCard";
 import EquipoComp1 from "./comps/EquipoComp1";
 import EquipoComp2 from "./comps/EquipoComp2";
 import EquipoComp3 from "./comps/EquipoComp3";
-
-
+import Cancha2 from "../public/Cancha2.png"
+import EquipoCardArqueros from './comps/EquipoCardArqueros';
+import EquipoCardDefensores from './comps/EquipoCardDefensores';
+import EquipoCardMediocampistas from './comps/EquipoCardMediocampistas';
+import EquipoCardDelanteros from './comps/EquipoCardDelanteros';
+import EquipoCardSuplentes from './comps/EquipoCardSuplentes';
+import EquipoCardTecnicos from './comps/EquipoCardTecnicos';
 
 function ArmarEquipos() {
-
     let Dinero = (2000)
 
     const [componenteActual, setComponenteActual] = useState(null);
@@ -27,9 +29,35 @@ function ArmarEquipos() {
         setComponenteActual(<EquipoComp3 />);
     };
 
+    const [componenteVisible, setComponenteVisible] = useState(null);
+
+    const handleClick = (posicion) => {
+        switch (posicion) {
+            case 'Arquero':
+                setComponenteVisible(<EquipoCardArqueros />);
+                break;
+            case 'Defensor':
+                setComponenteVisible(<EquipoCardDefensores />);
+                break;
+            case 'Mediocampo':
+                setComponenteVisible(<EquipoCardMediocampistas />);
+                break;
+            case 'Delantero':
+                setComponenteVisible(<EquipoCardDelanteros />);
+                break;
+            case 'Suplente':
+                setComponenteVisible(<EquipoCardSuplentes />);
+                break;
+            case 'Tecnico':
+                setComponenteVisible(<EquipoCardTecnicos />);
+                break;
+            default:
+                setComponenteVisible(<EquipoCardArqueros />);
+        }
+    };
+
 
     return (
-
         <section>
             <div className="w-100 GradientViolt">
                 <div className="EquiposCancha">
@@ -44,7 +72,6 @@ function ArmarEquipos() {
                         <div className="DivCanchaDatos">
                             <h2>EQUIPOS VIRTUALES</h2>
                             <img className='Linea' src={Linea} />
-                            <h3>SUPLENTES</h3>
                         </div>
                         <div className='DivEquiposButton'>
                             <div className='EquiposInputDiv'>
@@ -62,15 +89,35 @@ function ArmarEquipos() {
                                 </div>
                             </div>
                         </div>
-                        <img className="Canchaimg" src={Cancha} alt="" />
+                        <img className="Canchaimg" src={Cancha2} alt="" />
+                    </div>
+                </div>  
+                <div className='posicionesButtons'>
+                    <div className='posicionesButtonsDiv'>
+                        <input type="button" value="Arquero" onClick={() => handleClick('Arquero')} />
+                    </div>
+                    <div className='posicionesButtonsDiv'>
+                        <input type="button" value="Defensor" onClick={() => handleClick('Defensor')} />
+                    </div>
+                    <div className='posicionesButtonsDiv'>
+                        <input type="button" value="Mediocampo" onClick={() => handleClick('Mediocampo')} />
+                    </div>
+                    <div className='posicionesButtonsDiv'>
+                        <input type="button" value="Delantero" onClick={() => handleClick('Delantero')} />
+                    </div>
+                    <div className='posicionesButtonsDiv'>
+                        <input type="button" value="Suplente" onClick={() => handleClick('Suplente')} />
+                    </div>
+                    <div className='posicionesButtonsDiv'>
+                        <input type="button" value="Tecnico" onClick={() => handleClick('Tecnico')} />
                     </div>
                 </div>
             </div>
             <div>
-                <EquipoCard></EquipoCard>
+                {componenteVisible}
             </div>
         </section>
     );
 }
 
-export default ArmarEquipos
+export default ArmarEquipos;

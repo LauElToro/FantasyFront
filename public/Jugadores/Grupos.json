@@ -1,0 +1,1131 @@
+{
+  "arqueros": {
+    "grupos": {
+      "A": [
+        {
+          "img": "./Paises/Qatar.png",
+          "pais": "Qatar",
+          "valor": 100
+        },
+        {
+          "img": "./Paises/Ecuador.png",
+          "pais": "Ecuador",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Senegal.png",
+          "pais": "Senegal",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Paises Bajos.png",
+          "pais": "Países Bajos",
+          "valor": 100
+        }
+      ],
+
+      "B": [
+        {
+          "img": "./Paises/Inglaterra.png",
+          "pais": "Inglaterra",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Iran.png",
+          "pais": "Iran",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Estados Unidos.png",
+          "pais": "Estados Unidos",
+          "valor": 110
+        },
+        {
+          "img": "./Paises/Gales.jpg",
+          "pais": "Gales",
+          "valor": 135
+        }       
+      ],
+
+      "C": [
+        {
+          "img": "./Paises/Argentina.png",
+          "pais": "Argentina",
+          "valor": 300
+        },
+        {
+          "img": "./Paises/Arabia Saudita.png",
+          "pais": "Arabia Saudita",
+          "valor":  150
+        },
+        {
+          "img": "./Paises/Mexico.png",
+          "pais": "México",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Polonia.png",
+          "pais": "Polonia",
+          "valor": 160
+        }       
+      ],
+
+      "D": [
+        {
+          "img": "./Paises/Francia.png",
+          "pais": "Francia",
+          "valor": 250
+        },
+        {
+          "img": "./Paises/Australia.png",
+          "pais": "Australia",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Dinamarca.png",
+          "pais": "Dinamarca",
+          "valor": 100
+        },
+        {
+          "img": "./Paises/Tunez.png",
+          "pais": "Túnez",
+          "valor": 90
+        }       
+      ],
+
+      "E": [
+        {
+          "img": "./Paises/España.png",
+          "pais": "España",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Costa Rica.png",
+          "pais": "Costa Rica",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Alemania.png",
+          "pais": "Alemania",
+          "valor": 250
+        },
+        {
+          "img": "./Paises/Japon.png",
+          "pais": "Japón",
+          "valor": 190
+        }       
+      ],
+
+      "F": [
+        {
+          "img": "./Paises/Belgica.png",
+          "pais": "Bélgica",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Canada.png",
+          "pais": "Canadá",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Marruecos.png",
+          "pais": "Marruecos",
+          "valor": 220
+        },
+        {
+          "img": "./Paises/Croacia.png",
+          "pais": "Croacia",
+          "valor": 190
+        }       
+      ],
+
+      "G": [
+        {
+          "img": "./Paises/Brasil.png",
+          "pais": "Brasil",
+          "valor": 280
+        },
+        {
+          "img": "./Paises/Serbia.png",
+          "pais": "Serbia",
+          "valor": 130
+        },
+        {
+          "img": "./Paises/Suiza.png",
+          "pais": "Suiza",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Camerun.png",
+          "pais": "Camerún",
+          "valor": 110
+        }       
+      ],
+
+      "H": [
+        {
+          "img": "./Paises/Portugal.png",
+          "pais": "Portugal",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Ghana.png",
+          "pais": "Ghana",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Uruguay.png",
+          "pais": "Uruguay",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Corea del Sur.png",
+          "pais": "Corea del Sur",
+          "valor": 150
+        }       
+      ]
+    }
+  },
+
+  "defensores": {
+    "grupos": {
+      "grupo A": [
+        {
+          "img": "./Paises/Qatar.png",
+          "pais": "Qatar",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Ecuador.png",
+          "pais": "Ecuador",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Senegal.png",
+          "pais": "Senegal",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Paises Bajos.png",
+          "pais": "Países Bajos",
+          "valor": 220
+        }
+      ],
+
+      "grupo B": [
+        {
+          "img": "./Paises/Inglaterra.png",
+          "pais": "Inglaterra",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Iran.png",
+          "pais": "Irán",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Estados Unidos.png",
+          "pais": "Estados Unidos",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Gales.jpg",
+          "pais": "Gales",
+          "valor": 130
+        }       
+      ],
+
+      "grupo C": [
+        {
+          "img": "./Paises/Argentina.png",
+          "pais": "Argentina",
+          "valor": 250
+        },
+        {
+          "img": "./Paises/Arabia Saudita.png",
+          "pais": "Arabia Saudita",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Mexico.png",
+          "pais": "México",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Polonia.png",
+          "pais": "Polonia",
+          "valor": 190
+        }       
+      ],
+
+      "grupo D": [
+        {
+          "img": "./Paises/Francia.png",
+          "pais": "Francia",
+          "valor": 220
+        },
+        {
+          "img": "./Paises/Australia.png",
+          "pais": "Australia",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Dinamarca.png",
+          "pais": "Dinamarca",
+          "valor": 130
+        },
+        {
+          "img": "./Paises/Tunez.png",
+          "pais": "Túnez",
+          "valor": 90
+        }       
+      ],
+
+      "grupo E": [
+        {
+          "img": "./Paises/España.png",
+          "pais": "España",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Costa Rica.png",
+          "pais": "Costa Rica",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Alemania.png",
+          "pais": "Alemania",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Japon.png",
+          "pais": "Japón",
+          "valor": 180
+        }       
+      ],
+
+      "grupo F": [
+        {
+          "img": "./Paises/Belgica.png",
+          "pais": "Bélgica",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Canada.png",
+          "pais": "Canadá",
+          "valor": 110
+        },
+        {
+          "img": "./Paises/Marruecos.png",
+          "pais": "Marruecos",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Croacia.png",
+          "pais": "Croacia",
+          "valor": 210
+        }       
+      ],
+
+      "grupo G": [
+        {
+          "img": "./Paises/Brasil.png",
+          "pais": "Brasil",
+          "valor": 250
+        },
+        {
+          "img": "./Paises/Serbia.png",
+          "pais": "Serbia",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Suiza.png",
+          "pais": "Suiza",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Camerun.png",
+          "pais": "Camerún",
+          "valor": 180
+        }       
+      ],
+
+      "grupo H": [
+        {
+          "img": "./Paises/Portugal.png",
+          "pais": "Portugal",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Ghana.png",
+          "pais": "Ghana",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Uruguay.png",
+          "pais": "Uruguay",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Corea del Sur.png",
+          "pais": "Corea del Sur",
+          "valor": 180
+        }       
+      ]
+    }
+  },
+
+  "mediocampo": {
+    "grupos": {
+      "grupo A": [
+        {
+          "img": "./Paises/Qatar.png",
+          "pais": "Qatar",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Ecuador.png",
+          "pais": "Ecuador",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Senegal.png",
+          "pais": "Senegal",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Paises Bajos.png",
+          "pais": "Países Bajos",
+          "valor": 290
+        }
+      ],
+
+      "grupo B": [
+        {
+          "img": "./Paises/Inglaterra.png",
+          "pais": "Inglaterra",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Iran.png",
+          "pais": "Irán",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Estados Unidos.png",
+          "pais": "Estados Unidos",
+          "valor": 130
+        },
+        {
+          "img": "./Paises/Gales.jpg",
+          "pais": "Gales",
+          "valor": 120
+        }       
+      ],
+
+      "grupo C": [
+        {
+          "img": "./Paises/Argentina.png",
+          "pais": "Argentina",
+          "valor": 260
+        },
+        {
+          "img": "./Paises/Arabia Saudita.png",
+          "pais": "Arabia Saudita",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Mexico.png",
+          "pais": "México",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Polonia.png",
+          "pais": "Polonia",
+          "valor": 180
+        }       
+      ],
+
+      "grupo D": [
+        {
+          "img": "./Paises/Francia.png",
+          "pais": "Francia",
+          "valor": 250
+        },
+        {
+          "img": "./Paises/Australia.png",
+          "pais": "Australia",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Dinamarca.png",
+          "pais": "Dinamarca",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Tunez.png",
+          "pais": "Túnez",
+          "valor": 100
+        }       
+      ],
+
+      "grupo E": [
+        {
+          "img": "./Paises/España.png",
+          "pais": "España",
+          "valor": 230
+        },
+        {
+          "img": "./Paises/Costa Rica.png",
+          "pais": "Costa Rica",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Alemania.png",
+          "pais": "Alemania",
+          "valor": 220
+        },
+        {
+          "img": "./Paises/Japon.png",
+          "pais": "Japón",
+          "valor": 200
+        }       
+      ],
+
+      "grupo F": [
+        {
+          "img": "./Paises/Belgica.png",
+          "pais": "Bélgica",
+          "valor": 220
+        },
+        {
+          "img": "./Paises/Canada.png",
+          "pais": "Canadá",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Marruecos.png",
+          "pais": "Marruecos",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Croacia.png",
+          "pais": "Croacia",
+          "valor": 240
+        }       
+      ],
+
+      "grupo G": [
+        {
+          "img": "./Paises/Brasil.png",
+          "pais": "Brasil",
+          "valor": 260
+        },
+        {
+          "img": "./Paises/Serbia.png",
+          "pais": "Serbia",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Suiza.png",
+          "pais": "Suiza",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Camerun.png",
+          "pais": "Camerún",
+          "valor": 180
+        }       
+      ],
+
+      "grupo H": [
+        {
+          "img": "./Paises/Portugal.png",
+          "pais": "Portugal",
+          "valor": 220
+        },
+        {
+          "img": "./Paises/Ghana.png",
+          "pais": "Ghana",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Uruguay.png",
+          "pais": "Uruguay",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Corea del Sur.png",
+          "pais": "Corea del Sur",
+          "valor": 170
+        }       
+      ]
+    }
+  },
+
+  "delanteros": {
+    "grupos": {
+      "grupo A": [
+        {
+          "img": "./Paises/Qatar.png",
+          "pais": "Qatar",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Ecuador.png",
+          "pais": "Ecuador",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Senegal.png",
+          "pais": "Senegal",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Paises Bajos.png",
+          "pais": "Países Bajos",
+          "valor": 210
+        }
+      ],
+
+      "grupo B": [
+        {
+          "img": "./Paises/Inglaterra.png",
+          "pais": "Inglaterra",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Iran.png",
+          "pais": "Irán",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Estados Unidos.png",
+          "pais": "Estados Unidos",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Gales.jpg",
+          "pais": "Gales",
+          "valor": 200
+        }       
+      ],
+
+      "grupo C": [
+        {
+          "img": "./Paises/Argentina.png",
+          "pais": "Argentina",
+          "valor": 290
+        },
+        {
+          "img": "./Paises/Arabia Saudita.png",
+          "pais": "Arabia Saudita",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Mexico.png",
+          "pais": "México",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Polonia.png",
+          "pais": "Polonia",
+          "valor": 200
+        }       
+      ],
+
+      "grupo D": [
+        {
+          "img": "./Paises/Francia.png",
+          "pais": "Francia",
+          "valor": 290
+        },
+        {
+          "img": "./Paises/Australia.png",
+          "pais": "Australia",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Dinamarca.png",
+          "pais": "Dinamarca",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Tunez.png",
+          "pais": "Túnez",
+          "valor": 130
+        }       
+      ],
+
+      "grupo E": [
+        {
+          "img": "./Paises/España.png",
+          "pais": "España",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Costa Rica.png",
+          "pais": "Costa Rica",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Alemania.png",
+          "pais": "Alemania",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Japon.png",
+          "pais": "Japón",
+          "valor": 180
+        }       
+      ],
+
+      "grupo F": [
+        {
+          "img": "./Paises/Belgica.png",
+          "pais": "Bélgica",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Canada.png",
+          "pais": "Canadá",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Marruecos.png",
+          "pais": "Marruecos",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Croacia.png",
+          "pais": "Croacia",
+          "valor": 200
+        }       
+      ],
+
+      "grupo G": [
+        {
+          "img": "./Paises/Brasil.png",
+          "pais": "Brasil",
+          "valor": 280
+        },
+        {
+          "img": "./Paises/Serbia.png",
+          "pais": "Serbia",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Suiza.png",
+          "pais": "Suiza",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Camerun.png",
+          "pais": "Camerún",
+          "valor": 180
+        }       
+      ],
+
+      "grupo H": [
+        {
+          "img": "./Paises/Portugal.png",
+          "pais": "Portugal",
+          "valor": 290
+        },
+        {
+          "img": "./Paises/Ghana.png",
+          "pais": "Ghana",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Uruguay.png",
+          "pais": "Uruguay",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Corea del Sur.png",
+          "pais": "Corea del Sur",
+          "valor": 190
+        }       
+      ]
+    }
+  },
+
+  "suplentes": {
+    "grupos": {
+      "grupo A": [
+        {
+          "img": "./Paises/Qatar.png",
+          "pais": "Qatar",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Ecuador.png",
+          "pais": "Ecuador",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Senegal.png",
+          "pais": "Senegal",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Paises Bajos.png",
+          "pais": "Países Bajos",
+          "valor": 200
+        }
+      ],
+
+      "grupo B": [
+        {
+          "img": "./Paises/Inglaterra.png",
+          "pais": "Inglaterra",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Iran.png",
+          "pais": "Irán",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Estados Unidos.png",
+          "pais": "Estados Unidos",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Gales.jpg",
+          "pais": "Gales",
+          "valor": 160
+        }       
+      ],
+
+      "grupo C": [
+        {
+          "img": "./Paises/Argentina.png",
+          "pais": "Argentina",
+          "valor": 240
+        },
+        {
+          "img": "./Paises/Arabia Saudita.png",
+          "pais": "Arabia Saudita",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Mexico.png",
+          "pais": "México",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Polonia.png",
+          "pais": "Polonia",
+          "valor": 180
+        }       
+      ],
+
+      "grupo D": [
+        {
+          "img": "./Paises/Francia.png",
+          "pais": "Francia",
+          "valor": 230
+        },
+        {
+          "img": "./Paises/Australia.png",
+          "pais": "Australia",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Dinamarca.png",
+          "pais": "Dinamarca",
+          "valor": 130
+        },
+        {
+          "img": "./Paises/Tunez.png",
+          "pais": "Túnez",
+          "valor": 100
+        }       
+      ],
+
+      "grupo E": [
+        {
+          "img": "./Paises/España.png",
+          "pais": "España",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Costa Rica.png",
+          "pais": "Costa Rica",
+          "valor": 180
+        },
+        {
+          "img": "./Paises/Alemania.png",
+          "pais": "Alemania",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Japon.png",
+          "pais": "Japón",
+          "valor": 190
+        }       
+      ],
+
+      "grupo F": [
+        {
+          "img": "./Paises/Belgica.png",
+          "pais": "Bélgica",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Canada.png",
+          "pais": "Canadá",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Marruecos.png",
+          "pais": "Marruecos",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Croacia.png",
+          "pais": "Croacia",
+          "valor": 210
+        }       
+      ],
+
+      "grupo G": [
+        {
+          "img": "./Paises/Brasil.png",
+          "pais": "Brasil",
+          "valor": 240
+        },
+        {
+          "img": "./Paises/Serbia.png",
+          "pais": "Serbia",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Suiza.png",
+          "pais": "Suiza",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Camerun.png",
+          "pais": "Camerún",
+          "valor": 140
+        }       
+      ],
+
+      "grupo H": [
+        {
+          "img": "./Paises/Portugal.png",
+          "pais": "Portugal",
+          "valor": 210
+        },
+        {
+          "img": "./Paises/Ghana.png",
+          "pais": "Ghana",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Uruguay.png",
+          "pais": "Uruguay",
+          "valor": 190
+        },
+        {
+          "img": "./Paises/Corea del Sur.png",
+          "pais": "Corea del Sur",
+          "valor": 160
+        }       
+      ]
+    }
+  },
+
+  "tecnicos": {
+    "grupos": {
+      "grupo A": [
+        {
+          "img": "./Paises/Qatar.png",
+          "pais": "Qatar",
+          "valor": 110
+        },
+        {
+          "img": "./Paises/Ecuador.png",
+          "pais": "Ecuador",
+          "valor": 130
+        },
+        {
+          "img": "./Paises/Senegal.png",
+          "pais": "Senegal",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Paises Bajos.png",
+          "pais": "Países Bajos",
+          "valor": 200
+        }
+      ],
+
+      "grupo B": [
+        {
+          "img": "./Paises/Inglaterra.png",
+          "pais": "Inglaterra",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Iran.png",
+          "pais": "Irán",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Estados Unidos.png",
+          "pais": "Estados Unidos",
+          "valor": 100
+        },
+        {
+          "img": "./Paises/Gales.jpg",
+          "pais": "Gales",
+          "valor": 100
+        }       
+      ],
+
+      "grupo C": [
+        {
+          "img": "./Paises/Argentina.png",
+          "pais": "Argentina",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Arabia Saudita.png",
+          "pais": "Arabia Saudita",
+          "valor": 130
+        },
+        {
+          "img": "./Paises/Mexico.png",
+          "pais": "México",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Polonia.png",
+          "pais": "Polonia",
+          "valor": 140
+        }       
+      ],
+
+      "grupo D": [
+        {
+          "img": "./Paises/Francia.png",
+          "pais": "Francia",
+          "valor": 200
+        },
+        {
+          "img": "./Paises/Australia.png",
+          "pais": "Australia",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Dinamarca.png",
+          "pais": "Dinamarca",
+          "valor": 100
+        },
+        {
+          "img": "./Paises/Tunez.png",
+          "pais": "Túnez",
+          "valor": 100
+        }       
+      ],
+
+      "grupo E": [
+        {
+          "img": "./Paises/España.png",
+          "pais": "España",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Costa Rica.png",
+          "pais": "Costa Rica",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Alemania.png",
+          "pais": "Alemania",
+          "valor": 140
+        },
+        {
+          "img": "./Paises/Japon.png",
+          "pais": "Japón",
+          "valor": 140
+        }       
+      ],
+
+      "grupo F": [
+        {
+          "img": "./Paises/Belgica.png",
+          "pais": "Bélgica",
+          "valor": 130
+        },
+        {
+          "img": "./Paises/Canada.png",
+          "pais": "Canadá",
+          "valor": 100
+        },
+        {
+          "img": "./Paises/Marruecos.png",
+          "pais": "Marruecos",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Croacia.png",
+          "pais": "Croacia",
+          "valor": 180
+        }       
+      ],
+
+      "grupo G": [
+        {
+          "img": "./Paises/Brasil.png",
+          "pais": "Brasil",
+          "valor": 170
+        },
+        {
+          "img": "./Paises/Serbia.png",
+          "pais": "Serbia",
+          "valor": 110
+        },
+        {
+          "img": "./Paises/Suiza.png",
+          "pais": "Suiza",
+          "valor": 120
+        },
+        {
+          "img": "./Paises/Camerun.png",
+          "pais": "Camerún",
+          "valor": 130
+        }       
+      ],
+
+      "grupo H": [
+        {
+          "img": "./Paises/Portugal.png",
+          "pais": "Portugal",
+          "valor": 160
+        },
+        {
+          "img": "./Paises/Ghana.png",
+          "pais": "Ghana",
+          "valor": 110
+        },
+        {
+          "img": "./Paises/Uruguay.png",
+          "pais": "Uruguay",
+          "valor": 150
+        },
+        {
+          "img": "./Paises/Corea del Sur.png",
+          "pais": "Corea del Sur",
+          "valor": 100
+        }       
+      ]
+    }
+  }
+
+
+}

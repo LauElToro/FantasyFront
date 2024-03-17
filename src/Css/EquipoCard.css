@@ -1,0 +1,134 @@
+.posicionesButtons{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.posicionesButtonsDiv{
+    width: 12%;
+    background: linear-gradient(0deg, #09080F 10%, #0e247c 90%);
+    border: 2px solid #14A2F2;
+}
+
+
+.posicionesButtonsDiv input{
+    color: #fff;
+}
+
+.botonesJugadoresContainer{
+  width: 100%;
+}
+
+.botonesJugadoresContainer button{
+  background:none;
+  width: 100%;
+}
+
+#equiposContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .SelecJugadoresCont {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .SelecJugadores{
+    padding: 0px 0px 10px 0px;
+  }
+
+  .SelecJugadoresCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border: #14A2F2 2px solid;
+    border-radius: 15px;
+    padding: 2%;
+    background: linear-gradient(0deg, #09080F 0%, #0e247c 100%);
+
+  }
+  
+  .SelecJugImg img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .SelecPais strong {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .SelecValor p {
+    margin: 5px 0;
+    color: #fff;
+  }
+  
+
+  @media (max-width: 768px) {
+    #equiposContainer {
+      grid-template-columns: repeat(1, 1fr); /* Cambia a una sola columna */
+      margin-top: 5%;
+      padding: 1%;
+    }
+    .SelecJugadores{
+      width: 90%;
+      margin-top: 1%;
+    }
+    .SelecJugadoresCont{
+      width: 100%;
+    }
+    
+    .SelecJugadoresCard{
+      height: 100px;
+    }
+
+    .posicionesButtons{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 1%;
+      flex-wrap: wrap;
+   }
+   
+   .botonesJugadoresContainer{
+    width: 88%;
+    margin-left: -26%;
+   }
+
+  .botonesJugadoresContainer button{
+    background:none;
+    width: 100%;
+  }
+  
+
+   .posicionesButtonsDiv{
+      width: calc(33.33% - 20px); 
+       background: linear-gradient(0deg, #09080F 10%, #0e247c 90%);
+       border: 3px solid #14A2F2 ;
+       margin-top: 2%;
+   }
+   
+   .posicionesButtonsDiv input{
+       color: #fff;
+   }
+  }
