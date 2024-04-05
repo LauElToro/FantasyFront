@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Css/ArmarEquipo.css";
 import Linea from "../public/Linea19.png"
 import EquipoComp1 from "./comps/EquipoComp1";
@@ -12,13 +12,35 @@ import EquipoCardDelanteros from './comps/EquipoCardDelanteros';
 import EquipoCardSuplentes from './comps/EquipoCardSuplentes';
 import EquipoCardTecnicos from './comps/EquipoCardTecnicos';
 
+// Función para cargar datos JSON
+function cargarJSON(url) {
+    return fetch(url)
+        .then(response => response.json())
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+            return {};
+        });
+}
+
 function ArmarEquipos() {
     let Dinero = (2000)
 
     const [componenteActual, setComponenteActual] = useState(null);
+    const [componenteVisible, setComponenteVisible] = useState(null);
+    const [equiposArqueros, setEquiposArqueros] = useState({});
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        cargarJSON('../../public/Jugadores/Grupos.json')
+            .then(data => {
+                setEquiposArqueros(data.arqueros.grupos || {});
+                setLoading(false);
+            })
+            .catch(() => setLoading(false));
+    }, []);
 
     const mostrarComponente1 = () => {
-        setComponenteActual(<EquipoComp1 />);
+        setComponenteActual(<EquipoComp1/>);
     };
 
     const mostrarComponente2 = () => {
@@ -28,8 +50,6 @@ function ArmarEquipos() {
     const mostrarComponente3 = () => {
         setComponenteActual(<EquipoComp3 />);
     };
-
-    const [componenteVisible, setComponenteVisible] = useState(null);
 
     const handleClick = (posicion) => {
         switch (posicion) {
@@ -56,7 +76,6 @@ function ArmarEquipos() {
         }
     };
 
-
     return (
         <section>
             <div className="w-100 GradientViolt">
@@ -71,7 +90,7 @@ function ArmarEquipos() {
                         </div>
                         <div className="DivCanchaDatos">
                             <h2>EQUIPOS VIRTUALES</h2>
-                            <img className='Linea' src={Linea} />
+                            <img className='Linea' src={Linea} alt="linea" />
                         </div>
                         <div className='DivEquiposButton'>
                             <div className='EquiposInputDiv'>
@@ -89,7 +108,7 @@ function ArmarEquipos() {
                                 </div>
                             </div>
                         </div>
-                        <img className="Canchaimg" src={Cancha2} alt="" />
+                        <img className="Canchaimg" src={Cancha2} alt="cancha" />
                     </div>
                 </div>  
                 <div className='posicionesButtons'>
